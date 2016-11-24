@@ -4,10 +4,50 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h2> Sobre Nós</h2>
-    <img class="img-responsive" src="img/empresa.jpg"/>
+    <div class="container">
+      <h2> Sobre Nós</h2>
+      <img class="img-responsive" src="img/empresa.jpg"/>
 
+      <div class="panel-group" id="paineis-sobre">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro_paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+          </div>
+          <div id="primeiro_paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis-sobre">Preços Acessíveis</h3>
+          </div>
+          <div id="segundo_paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+          </div>
+          <div id="terceiro_paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
