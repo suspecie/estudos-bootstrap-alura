@@ -36,11 +36,14 @@
             </div>
         </nav>
         <!--banner principal -->
-        <div class="topcasafina-banner">
-          <h1>TopCasaFina Arquitetura</h1>
-          <p>Projetando a casa dos sonhos desde 2000 A.C.</p>
-          <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+        <div class="container topcasafina-bannerWrapper">
+          <div class="topcasafina-banner">
+            <h1>TopCasaFina Arquitetura</h1>
+            <p>Projetando a casa dos sonhos desde 2000 A.C.</p>
+            <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+          </div>
         </div>
+
     </header>
 
 
@@ -48,44 +51,46 @@
     <!--SOBRE NOS -->
     <section id="sobre-nos" class="container">
         <h2> Sobre Nós</h2>
-        <img class="img-responsive" src="img/empresa.jpg" />
+        <div class="row">
+          <img class="img-responsive col-sm-6" src="img/empresa.jpg" />
 
-        <div class="panel-group" id="paineis-sobre">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro_paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
-                </div>
-                <div id="primeiro_paragrafo" class="collapse">
-                    <div class="panel-body">
-                        <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
-                            consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
-                    </div>
-                </div>
-            </div>
+          <div class="panel-group col-sm-6" id="paineis-sobre">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro_paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                  </div>
+                  <div id="primeiro_paragrafo" class="collapse">
+                      <div class="panel-body">
+                          <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
+                              consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+                      </div>
+                  </div>
+              </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis-sobre">Preços Acessíveis</h3>
-                </div>
-                <div id="segundo_paragrafo" class="collapse">
-                    <div class="panel-body">
-                        <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
-                            consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
-                    </div>
-                </div>
-            </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis-sobre">Preços Acessíveis</h3>
+                  </div>
+                  <div id="segundo_paragrafo" class="collapse">
+                      <div class="panel-body">
+                          <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
+                              consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+                      </div>
+                  </div>
+              </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
-                </div>
-                <div id="terceiro_paragrafo" class="collapse">
-                    <div class="panel-body">
-                        <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
-                            consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
-                    </div>
-                </div>
-            </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+                  </div>
+                  <div id="terceiro_paragrafo" class="collapse">
+                      <div class="panel-body">
+                          <p>Integer malesuada imperdiet luctus. Suspendisse maximus ultrices ex sed consequat. Aliquam ultrices iaculis urna, ut egestas elit facilisis vel. Pellentesque nec lectus ac dui tincidunt euismod convallis sit amet erat. Integer
+                              consectetur lacus mi, a ornare nulla imperdiet eu. Cras interdum bibendum maximus. Nullam viverra laoreet sollicitudin.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
 
@@ -100,45 +105,59 @@
     <!--NOSSOS PROJETOS -->
     <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
-        <figure class="thumbnail">
-            <img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento a TopCasaFina Arquitetura, feita para um monge.</p>
-            </figcaption>
-        </figure>
 
-        <figure class="thumbnail">
-            <img src="img/projetos/casa-lago.png" alt="Foto da Casa Lago">
-            <figcaption class="caption">
-                <h3>Casa Lago</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </figcaption>
-        </figure>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+                <figcaption class="caption">
+                    <h3>Casa Castelo</h3>
+                    <p>A Casa Castelo é o último lançamento.</p>
+                </figcaption>
+            </figure>
+          </div>
 
-        <figure class="thumbnail">
-            <img src="img/projetos/mercado-marapira.png" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Mercado Marapira</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </figcaption>
-        </figure>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/projetos/casa-lago.png" alt="Foto da Casa Lago">
+                <figcaption class="caption">
+                    <h3>Casa Lago</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figcaption>
+            </figure>
+          </div>
 
-        <figure class="thumbnail">
-            <img src="img/projetos/palacio-dionisio.png" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Palacio Dionisio</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </figcaption>
-        </figure>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/projetos/mercado-marapira.png" alt="Foto da Casa Castelo">
+                <figcaption class="caption">
+                    <h3>Mercado Marapira</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figcaption>
+            </figure>
+          </div>
 
-        <figure class="thumbnail">
-            <img src="img/projetos/residencia-ludi.png" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Residencia Ludi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </figcaption>
-        </figure>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/projetos/palacio-dionisio.png" alt="Foto da Casa Castelo">
+                <figcaption class="caption">
+                    <h3>Palacio Dionisio</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/projetos/residencia-ludi.png" alt="Foto da Casa Castelo">
+                <figcaption class="caption">
+                    <h3>Residencia Ludi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </figcaption>
+            </figure>
+          </div>
+
+        <div>
     </section>
 
     <!--DEPOIMENTOS -->
@@ -190,58 +209,61 @@
         </div>
     </section>
 
-    <!--VIDEO INSTITUCIONAL -->
-    <section id="video" class="container">
-        <h2>Video Institucional</h2>
-        <!-- 16:9 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/gUWs7omT-NM" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </section>
+    <div class="row">
+      <!--VIDEO INSTITUCIONAL -->
+      <section id="video" class="container col-sm-6">
+          <h2>Video Institucional</h2>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/gUWs7omT-NM" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </section>
 
-    <!--CONTATO -->
-    <section id="contato" class="container">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco</p>
-        <form>
-            <div class="form-group">
-                <label for="contato-name">Nome:</label>
-                <input type="text" id="contato-name" placeholder="Seu nome" class="form-control">
-            </div>
+      <!--CONTATO -->
+      <section id="contato" class="container col-sm-6">
+          <h2>Contato</h2>
+          <p>Entre em contato conosco</p>
+          <form>
+              <div class="form-group">
+                  <label for="contato-name">Nome:</label>
+                  <input type="text" id="contato-name" placeholder="Seu nome" class="form-control">
+              </div>
 
-            <div class="form-group">
-                <label for="contato-email">E-mail:</label>
-                <div class="input-group">
-                    <div class="input-group-addon">@</div>
-                    <input type="email" id="contato-email" class="form-control" placeholder="Seu e-mail">
-                </div>
-            </div>
+              <div class="form-group">
+                  <label for="contato-email">E-mail:</label>
+                  <div class="input-group">
+                      <div class="input-group-addon">@</div>
+                      <input type="email" id="contato-email" class="form-control" placeholder="Seu e-mail">
+                  </div>
+              </div>
 
-            <div class="grupo-radio">
-                <div class="radio">
-                    <label>
-                      <input type="radio" name="tipo-pessoa"checked="checked"/>
-                      Pessoa Física
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                      <input type="radio" name="tipo-pessoa"/>
-                      Pessoa Juridica
-                    </label>
-                </div>
-            </div><!--
+              <div class="grupo-radio">
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="tipo-pessoa"checked="checked"/>
+                        Pessoa Física
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="tipo-pessoa"/>
+                        Pessoa Juridica
+                      </label>
+                  </div>
+              </div><!--
 
-      --><select class="contato-select form-control">
-          <option disabled="disabled" selected="selected">Tipo de Situação</option>
-          <option>Casa</option>
-          <option>Apartamento</option>
-          <option>Mansão</option>
-        </select>
+        --><select class="contato-select form-control">
+            <option disabled="disabled" selected="selected">Tipo de Situação</option>
+            <option>Casa</option>
+            <option>Apartamento</option>
+            <option>Mansão</option>
+          </select>
 
-            <button class="btn btn-primary" type="submit">Enviar</button>
-        </form>
-    </section>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+      </section>
+    </div>
+
 
     <!--ENDEREÇO -->
     <footer>
